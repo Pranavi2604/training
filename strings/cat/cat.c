@@ -8,7 +8,8 @@ int main(){
 	if(fgets(str1,max,stdin)==NULL){
 		return 1;
 		}
-	else if(fgets(str2,max,stdin)==NULL){
+	printf("enter 2nd string:\n");
+	if(fgets(str2,max,stdin)==NULL){
 		return 1;
 		}
 	else{
